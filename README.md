@@ -24,8 +24,8 @@ https://user-images.githubusercontent.com/57863133/205453183-f8a460de-94eb-47e5-
   * [How the Project Works](#How-The-Project-Works)
   * [Steps Login ](#Steps-Login)
   * [Steps Customer ](#Steps-AddNewCustomer)
-  * [Login Class](#Imdb_Steps-Class)
-  * [AddNewCustomer Class](#TheCirsus_Steps-Class)
+  * [Login Class](#Login-Class)
+  * [AddNewCustomer Class](#AddNewCustomer-Class)
 
   
 
