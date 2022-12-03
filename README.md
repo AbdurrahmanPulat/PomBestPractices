@@ -12,7 +12,6 @@ https://user-images.githubusercontent.com/57863133/205453183-f8a460de-94eb-47e5-
 
 
 
-## Project Report
 
 
 
@@ -23,12 +22,11 @@ https://user-images.githubusercontent.com/57863133/205453183-f8a460de-94eb-47e5-
   * [About The Project](#About-The-Project)
   * [Video](#Video)
   * [How the Project Works](#How-The-Project-Works)
-  * [Steps The Circus Movie](#Steps-The-Circus-Movie)
-  * [Steps The Jazz Singer Movie](#Steps-The-Jazz-Singer-Movie)
-  * [Imdb_Steps Class](#Imdb_Steps-Class)
-  * [TheCircus_Steps Class](#TheCirsus_Steps-Class)
-  * [TheJazzSinger_Steps Class](#TheJazzSinger_Steps-Class)
-  * [TestRunner Class](#TestRunner-Class)
+  * [Steps Login ](#Steps-Login)
+  * [Steps Customer ](#Steps-AddNewCustomer)
+  * [Login Class](#Imdb_Steps-Class)
+  * [AddNewCustomer Class](#TheCirsus_Steps-Class)
+
   
 
 ## Project Details
@@ -51,7 +49,8 @@ Successfully login to the nopcommerce site, then go to the customer page from th
  ## Steps Customers
  
   Scenario: Add a new customer
-    And User opens URL "http://admin-demo.nopcommerce.com/login"
+  
+    Given User opens URL "http://admin-demo.nopcommerce.com/login"
     When User enters email as "admin@yourstore.com" and password as "admin"
     And User clicks on Login
     Then User can view Dashboard
